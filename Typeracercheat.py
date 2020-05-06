@@ -50,7 +50,7 @@ if option == "3":
     Game(PracticeGame_ID, Text_ID)
 
 # GET THE TEXT FROM THE TYPE RACE
-TextBox = WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_css_selector(Text_ID))
+Text = WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_css_selector(Text_ID))
 
 
 print(""
@@ -73,7 +73,7 @@ GameStart = input(""
 
 if GameStart == "y":
     time.sleep(3) # START TYPING WITHIN 3 SECONDS
-    for i in TextBox.text:
+    for i in Text.text:
         keyboard.press(i)
         keyboard.release(i)
         time.sleep(0.08) # TYPE ALL THE CHRARACTERS WITH AN INTERVAL OF 0.08 SECONDS , THIS TIME CAN BE CHANGED ACCORDING TO YOUR NEEDS . DONT MAKE IT TOO SMALL OR THE GAME WILL DETECT THE HACK
