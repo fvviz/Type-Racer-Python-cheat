@@ -46,7 +46,7 @@ the program will take 3 seconds to start typing , so you must click on the typin
 
 <img src = "https://imgur.com/Tq7ghbc.png">
 
-(3) Switch to the browser that the program opened and click on the typing box 
+(3) Switch to the browser that the program opened and **click on the typing box**
 <img src = "https://imgur.com/HqlEUp1.png">
 
 (4) Sit back and watch the program type out everything for you. If you want to increase the typing speed , Go back to the code and decrease this time
